@@ -1,0 +1,4 @@
+<h3><%= @postdel %> was deleted!</h3>
+<% @posts.each do |post| %>
+<ol><%= "Post Name: #{post.name}, Post Content: #{post.content}" %></ol>
+<% end %>
